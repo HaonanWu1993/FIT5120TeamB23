@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSalt</title>
+    <style type="text/css">
+        .kaitou {
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            width: 1305px;
+            height: 40px;
+            border: 1px solid black;
+            color: black;
+            background: salmon;
+        }
+        .box {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            color: black;
+            font-family: "Times New Roman";
+            text-align: center;
+            background: salmon;
+        }
+
+        .pic {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            background-image: url(http://img0.imgtn.bdimg.com/it/u=1649751985,648280212&fm=214&gp=0.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        @keyframes myfirstcartoon {
+            0% {
+                background-color: lightgreen;
+            }
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: orange;
+            }
+            75% {
+                background-color: red;
+            }
+            100% {
+                background-color: yellow;
+            }
+        }
+        .tt {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 1305px;
+            height: 40px;
+            border: 1px solid black;
+            animation: myfirstcartoon 15s ease-in-out 1s infinite alternate;
+        }
+        .result{
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 1305px;
+            height: 200px;
+            border: 1px solid black;
+            text-align: center;
+            background: salmon;
+
+        }
+
+        a:hover {
+            color: #ffa11b;
+            text-decoration:none;
+
+        }
+    </style>
+</head>
+<body>
+<div class="kaitou">
+    <h3>HSalt Salt Calculation</h3>
+    <br/>
+</div>
+<br/>
+<div class="pic">
+</div>
+
+<div class="box">
+    <br/>
+    <br/>
+    <form name="test" method="get" action="">
+        <p>Please enter the blood pressure of today：</p>
+        <input type="text" name="bloodpressure" id="bp">
+        <br/>
+        <p>Please enter how much salt intake of yesterday：</p>
+        <input type="text" name="salt" id="ysalt">
+        <br/>
+        <br/>
+        Gender：<input type="radio" name="sex" value="male"/>Male<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="sex" value="female"/>Female
+        <br/>
+        <br/>
+        <button type="button"onclick="calculate()">
+            Submit
+        </button>
+        <button type="reset">
+            Reset
+        </button>
+    </form>
+    <a href="https://nevertoolateteamb23.com/"><p>Back to home page</a>
+</div>
+
+
+<div class="pic">
+</div>
+<br/><div class="result">
+    <h4>Your report</h4>
+    <p id="feedback" STYLE="text-align: left">Your BP situation: <br/>
+                     Suggest salt intake for today:<br/>
+                     Other suggestion:
+    </p>
+</div>
+<br/><div class="tt">
+
+</div>
+<script>
+    function calculate() {
+       var bp=document.getElementById("bp").value;
+       var ysalt=document.getElementById("ysalt").value;
+       var res = Number(bp)+Number(ysalt);
+        document.getElementById("feedback").innerHTML= "Your BP situation: Good  "+
+            "             <br/>        Suggest salt intake for today:  " +res+
+            "             <br/>     Other suggestion: You need do more exercises" ;
+    }
+</script>
+</body>
+</html>
