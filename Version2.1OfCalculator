@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSalt</title>
+    <style type="text/css">
+        .kaitou {
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            width: 100%;
+            height: 40px;
+            border: 1px solid black;
+            color: black;
+            background: rgba(12, 17, 25, 0.95);
+        }
+        .box {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 98%;
+            height: 500px;
+            border: 5px solid black;
+            color: black;
+            box-shadow: 0 0 0 .2em #655;
+            border-radius: .8em;
+            outline: .6em solid #655;
+            font-family: "Times New Roman";
+            text-align: center;
+            background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2353785309,2395694522&fm=26&gp=0.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .pic {
+            float: left;
+
+            width: 32%;
+            height: 520px;
+            border: 1px solid black;
+            background-image: url(http://img0.imgtn.bdimg.com/it/u=1649751985,648280212&fm=214&gp=0.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        @keyframes myfirstcartoon {
+            0% {
+                background-color: lightgreen;
+            }
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: orange;
+            }
+            75% {
+                background-color: red;
+            }
+            100% {
+                background-color: yellow;
+            }
+        }
+        .tt {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 100%;
+            height: 40px;
+            border: 1px solid black;
+            animation: myfirstcartoon 15s ease-in-out 1s infinite alternate;
+        }
+
+        a{
+
+            text-align: center;
+        }
+
+        button {
+
+            padding: .3em .8em;
+
+            border: 1px solid rgba(0,0,0,.1);
+
+            background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent);
+
+            border-radius: .2em;
+
+            box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+
+            color: white;
+
+            text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+
+            font-size: 125%;
+
+            line-height: 1.5;
+
+        }
+    </style>
+</head>
+<body>
+<div class="kaitou">
+    <h3 style="font-family: 'Arial Black';color: azure">HSalt Salt Calculation</h3>
+    <br/>
+</div>
+<br/>
+
+<div class="box">
+    <br/>
+    <br/>
+    <form name="test" method="get" action="">
+        <p>Please enter the Diastolic blood pressure of today：</p>
+        <input type="text" name="dbloodpressure" id="dbp">
+        <br/>
+        <p>Please enter the Systolic blood pressure of today：</p>
+        <input type="text" name="sbloodpressure" id="sbp">
+        <br/>
+        <p>Please enter how much salt intake of yesterday：</p>
+        <input type="text" name="salt" id="ysalt">
+        <br/>
+        <br/>
+        Gender：<input type="radio" name="sex" value="male"/>Male<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female"/>Female
+        <br/>
+        <br/>
+        <button type="button" onclick="calculate()">
+            Submit
+        </button>
+        <button type="reset">
+            Reset
+        </button>
+    </form>
+    <a href="https://nevertoolateteamb23.com/"><p>Back to home page</a>
+</div>
+<br/><div class="kaitou">
+</div>
+<br/><div class="tt">
+
+</div>
+<script>
+    function calculate() {
+       var dbp=document.getElementById("dbp").value;
+       var sbp=document.getElementById("sbp").value;
+       var ysalt=document.getElementById("ysalt").value;
+       var radios = document.getElementsByName("sex");
+        for (i=0;i<radios.length;i++){
+            if(radios[i].checked===true){
+                var sex = radios[i].value;
+            }
+        }
+       if (sex==="male"){
+           var res = Number(dbp)+Number(ysalt);
+       }else{
+           var res = Number(dbp)-Number(ysalt);
+       }
+
+        document.write("<h2 style='text-align: center;font-family: Arial Black'>Your report</h2>"+
+            "<p style='text-align: center'>Your Diastolic blood pressure of today：  "+dbp+"<br/>"+
+            "<p style='text-align: center'>Systolic blood pressure of today：  "+ sbp+"<br/>"+
+            "<p style='text-align: center'>The salt you ate yesterday：  "+ ysalt+"<br/>"+
+            "<p style='text-align: center'>Your BP situation: Good  "+"<br/>"+
+            "<p style='text-align: center'>Suggest salt intake for today:  " +res+"<br/>"+
+            "<p style='text-align: center'> Other suggestion: You need do more exercises"+"<br/>"+"<br/>"+
+            " <a href=https://nevertoolateteamb23.com/><button style='background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent); padding: .3em .8em;border:1px solid rgba(0,0,0,.1)'>Back to home page</button></a>"
+        );
+    }
+
+
+</script>
+</body>
+</html>
