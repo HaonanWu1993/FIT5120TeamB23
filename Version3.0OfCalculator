@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSalt</title>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .top-nav {
+            height: 40px;
+            background: #f7f7f7;
+            border-bottom: 1px solid #d8d8d8;
+        }
+        .top-nav-con {
+            width: 970px;
+            margin: 0 auto;
+            height: 26px;
+        }
+        .top-nav-r dl dt {
+            float: left;
+            height: 26px;
+            line-height: 26px;
+        }
+        .top-nav-l {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .top-nav-r dl dt a {
+
+            height: 26px;
+            padding: 0 10px;
+        }
+        .box {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 60%;
+            height: 600px;
+            border: 1px solid black;
+            color: black;
+            font-family: Arial;
+            font-size: 18px;
+            text-align: center;
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587226074967&di=36d29d0e9692cd7fb1b06ab5f16ed99e&imgtype=0&src=http%3A%2F%2Fwww.ynxdfpr.com%2Fuploads%2Fallimg%2F180109%2F2-1P1091G126339.jpg");
+        }
+
+        @keyframes myfirstcartoon {
+            0% {
+                background-color: lightgreen;
+            }
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: orange;
+            }
+            75% {
+                background-color: red;
+            }
+            100% {
+                background-color: yellow;
+            }
+        }
+        .tt {
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 100%;
+            height: 40px;
+            border: 1px solid black;
+            animation: myfirstcartoon 15s ease-in-out 1s infinite alternate;
+        }
+        .result{
+            float: left;
+            margin: 5px;
+            padding: 15px;
+            width: 32%;
+            height: 600px;
+            border: 1px solid black;
+            color: black;
+            font-family: Arial;
+            text-align: center;
+            background: rgba(29, 250, 83, 0.11);
+
+        }
+        button {
+
+            padding: .3em .8em;
+
+            border: 1px solid rgba(0,0,0,.1);
+
+            background: #008610 linear-gradient(hsla(0,0%,100%,.2),transparent);
+
+            border-radius: .2em;
+
+            box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+
+            color: black;
+
+            text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+
+            font-size: 100%;
+
+            line-height: 1.5;
+
+        }
+        a:hover {
+            color: #ffa11b;
+            text-decoration:none;
+
+        }
+    </style>
+</head>
+<body>
+<div class="top-nav">
+    <div class="top-nav-con">
+        <div class="top-nav-l fl"><p style="font-family: 'Arial Black';font-size: 18px">Welcome to  use Hsalt calculator</p> </div>
+        <div class="top-nav-r fr">
+            <dl>
+                <dt><a href="https://nevertoolateteamb23.com/">Homepage</a></dt>
+                <dt><a href="#">Food Nutrition Table</a></dt>
+                <dt><a href="#">Other functions</a></dt>
+
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="box">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form name="test" method="get" action="">
+        <p>Diastolic blood pressure of today：<input type="text" name="dbloodpressure" id="dbp" placeholder="Please enter a number between 20-100"size="30" maxlength="3" ></p>
+        <br/>
+        <p>Systolic blood pressure of today：<input type="text" name="sbloodpressure" id="sbp"placeholder="Please enter a number between 50-200"size="30" maxlength="3"></p>
+        <br/>
+        <p>Salt intake of yesterday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="salt" id="ysalt"placeholder="1 spoon = 5g, please enter the weight"size="30" maxlength="3"></p>
+        <br/>
+        <br/>
+        Gender：<input type="radio" name="sex" value="male"/>Male<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female"/>Female
+        <br/>
+        <br/>
+        <button type="button" onclick="calculate1()">
+            Calculate
+        </button>
+        <button type="reset">
+            Reset
+        </button>
+        <br/>
+        <br/>
+        <button type="button" onclick="calculate2()" >
+            Calculate and Download PDF
+        </button>
+    </form>
+</div>
+<div class="result">
+    <h1>Your report</h1>
+    <p id="feedback" STYLE="text-align: left;font-size: 18px">
+
+    </p>
+</div>
+<br/><div class="tt">
+
+</div>
+<script>
+    function calculate1() {
+        var dbp=document.getElementById("dbp").value;
+        var sbp=document.getElementById("sbp").value;
+        var ysalt=document.getElementById("ysalt").value;
+        var radios = document.getElementsByName("sex");
+        for (i=0;i<radios.length;i++){
+            if(radios[i].checked===true){
+                var sex = radios[i].value;
+            }
+        }
+        if (sex==="male"){
+            var res = Number(dbp)+Number(ysalt);
+        }else{
+            var res = Number(dbp)-Number(ysalt);
+        }
+        document.getElementById("feedback").innerHTML= "<p style='text-align: center'>Your Diastolic blood pressure of today：  "+dbp+"<br/>"+
+            "<p style='text-align: center'>Systolic blood pressure of today：  "+ sbp+"<br/>"+
+            "<p style='text-align: center'>The salt you ate yesterday：  "+ ysalt+"<br/>"+
+            "<p style='text-align: center'>Your BP situation: Good  "+"<br/>"+
+            "<p style='text-align: center'>Suggest salt intake for today:  " +res+"<br/>"+
+            "<p style='text-align: center'> Other suggestion: You need do more exercises";
+    }
+    function calculate2() {
+        var dbp=document.getElementById("dbp").value;
+        var sbp=document.getElementById("sbp").value;
+        var ysalt=document.getElementById("ysalt").value;
+        var radios = document.getElementsByName("sex");
+        for (i=0;i<radios.length;i++){
+            if(radios[i].checked===true){
+                var sex = radios[i].value;
+            }
+        }
+        if (sex==="male"){
+            var res = Number(dbp)+Number(ysalt);
+        }else{
+            var res = Number(dbp)-Number(ysalt);
+        }
+
+        document.write("<h2 style='text-align: center;font-family: Arial Black'>Your report</h2>"+
+            "<p style='text-align: center'>Your Diastolic blood pressure of today：  "+dbp+"<br/>"+
+            "<p style='text-align: center'>Systolic blood pressure of today：  "+ sbp+"<br/>"+
+            "<p style='text-align: center'>The salt you ate yesterday：  "+ ysalt+"<br/>"+
+            "<p style='text-align: center'>Your BP situation: Good  "+"<br/>"+
+            "<p style='text-align: center'>Suggest salt intake for today:  " +res+"<br/>"+
+            "<p style='text-align: center'> Other suggestion: You need do more exercises"+"<br/>"+"<br/>"+
+            " <a href=https://nevertoolateteamb23.com/><button style='background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent); padding: .3em .8em;border:1px solid rgba(0,0,0,.1)'>Back to home page</button></a>"
+        );
+    }
+</script>
+</body>
+</html>
