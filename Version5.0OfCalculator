@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSalt</title>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .top-nav {
+            height: 40px;
+            background: #f7f7f7;
+            border-bottom: 1px solid #d8d8d8;
+        }
+        .top-nav-con {
+            width: 970px;
+            margin: 0 auto;
+            height: 26px;
+        }
+        .top-nav-r dl dt {
+            float: left;
+            height: 26px;
+            line-height: 26px;
+        }
+        .top-nav-l {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .top-nav-r dl dt a {
+
+            height: 26px;
+            padding: 0 10px;
+        }
+        .box {
+            float: left;
+
+            width: 26%;
+            height: 600px;
+            color: black;
+            margin-top: 40px;
+            font-family: "Arial Black";
+            font-size: 18px;
+            text-align: left;
+            background: white;
+        }
+        .pic {
+            float: left;
+            margin-left:15px;
+            margin-top: 40px;
+
+            width: 35%;
+            height: 620px;
+            color: black;
+            font-family: "Arial Black";
+            font-size: 18px;
+            text-align: center;
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587226074967&di=36d29d0e9692cd7fb1b06ab5f16ed99e&imgtype=0&src=http%3A%2F%2Fwww.ynxdfpr.com%2Fuploads%2Fallimg%2F180109%2F2-1P1091G126339.jpg");
+        }
+        .back {
+            width: 100%;
+            height: 720px;
+            background: white;
+        }
+
+        @keyframes myfirstcartoon {
+            0% {
+                background-color: lightgreen;
+            }
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: orange;
+            }
+            75% {
+                background-color: red;
+            }
+            100% {
+                background-color: yellow;
+            }
+        }
+        .tt {
+            float: left;
+            width: 100%;
+            height: 40px;
+            animation: myfirstcartoon 15s ease-in-out 1s infinite alternate;
+        }
+        .result{
+            float: left;
+            margin-top: 40px;
+            margin-left: 20px;
+            padding: 20px;
+            width: 26%;
+            height: 580px;
+            border: 1px solid black;
+            color: black;
+            font-family: "Arial Black";
+            text-align: center;
+            background: white;
+
+        }
+        button {
+
+            padding: .3em .8em;
+
+            border: 1px solid rgba(0,0,0,.1);
+
+            background: rgba(0, 182, 250, 0.25) linear-gradient(hsla(0,0%,100%,.2),transparent);
+
+            border-radius: .2em;
+
+            box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+
+            color: black;
+
+            font-family: "Arial";
+
+            text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+
+            font-size: 100%;
+
+            line-height: 1.5;
+
+        }
+        .buttonplace{
+            margin-left: 50px;
+        }
+        a:hover {
+            color: #ffa11b;
+            text-decoration:none;
+
+        }
+        .input-field,
+
+        .input-field *{
+
+            -webkit-box-sizing: border-box;
+
+            box-sizing:border-box;
+
+        }
+
+        .input-field {
+
+            position: relative;
+
+            width: 75%;
+
+            margin: 20px 50px;
+
+        }
+
+
+
+        .input-field input {
+
+            background-color: transparent;
+
+            border: none;
+
+            border-radius: 0;
+
+            height: 35px;
+
+            width: 100%;
+
+            padding: 0;
+
+            box-shadow: none;
+
+            outline: none;
+
+            -webkit-transition: all 0.3s;
+
+            transition: all 0.3s;
+
+        }
+
+
+
+        .input-field input+span {
+
+            position: absolute;
+
+            top: 100%;
+
+            left: 0;
+
+            display: inline-block;
+
+            max-width: 100%;
+
+            z-index: 0;
+
+            width: 100%;
+
+            height: 1px;
+
+            border-bottom: 1px solid #d9d9d9;
+
+        }
+
+
+
+        .input-field span:after {
+
+            content: "";
+
+            position: absolute;
+
+            bottom: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 2px;
+
+            background: #2196f3;
+
+            -webkit-transform: scale(0);
+
+            transform: scale(0);
+
+            -webkit-transition: all .2s ease-out;
+
+            transition: all .2s ease-out;
+
+        }
+
+        .input-field input:focus+span:after {
+
+            -webkit-transform: scale(1);
+
+            transform: scale(1);
+
+        }
+
+        .input-field.input-field-icon i{
+
+            position:absolute;
+
+            right:0;
+
+            top:50%;
+
+            padding:0 5px;
+
+            font-size:1.5em;
+
+            -webkit-transform: translate(0, -50%);
+
+            transform: translate(0, -50%);
+
+        }
+
+        .input-field.input-field-icon input{
+
+            padding-right:30px;
+
+        }
+
+
+
+        .input-field.success input+span{
+
+            border-color: #b5dfb7;
+
+        }
+
+        .input-field.warning input+span{
+
+            border-color: #ffd699;
+
+        }
+
+        .input-field.error input+span{
+
+            border-color: #fccbc7;
+
+        }
+
+        .input-field.success span:after {
+
+            background:#4caf50;
+
+        }
+
+        .input-field.warning span:after{
+
+            background:#ffc107;
+
+        }
+
+        .input-field.error span:after{
+
+            background:#f44336;
+
+        }
+
+        .input-field.input-field-icon.success i{
+
+            color: #4caf50;
+
+        }
+
+        .input-field.input-field-icon.warning i{
+
+            color: #ffc107;
+
+        }
+
+        .input-field.input-field-icon.error i{
+
+            color: #f44336;
+
+        }
+
+
+
+        .input-field.linear span:after {
+
+            background:-webkit-linear-gradient(left, #8C0044 20%, #00FFFF 50%, #7700FF 80%);
+
+        }
+    </style>
+</head>
+<body>
+<div class="top-nav">
+    <div class="top-nav-con">
+        <div class="top-nav-l fl"></div>
+        <div class="top-nav-r fr">
+            <dl>
+                <dt><a href="https://nevertoolateteamb23.com/"style="font-family: 'Arial Black'">Homepage</a></dt>
+                <dt><a href="#"style="font-family: 'Arial Black'">Food Nutrition Table</a></dt>
+                <dt><a href="#"style="font-family: 'Arial Black'">Other functions</a></dt>
+
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="back">
+    <div class="pic">
+
+    </div>
+    <div class="box">
+        <form name="test" method="get" action="">
+
+            <div class="input-field success input-field-icon">
+                <p>Diastolic blood pressure of today：</p>
+            <input type="text" name="dbloodpressure" id="dbp"
+                                                                     placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Please enter a number between 80-200"
+
+                                                                     maxlength="3"><span></span>
+
+                <i class="ion-android-done"></i>
+            </div>
+            <div class="input-field warning input-field-icon">
+            <p>Systolic blood pressure of today：</p><input type="text" name="sbloodpressure" id="sbp"
+                                                       placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Please enter a number between 40-100"
+                                                       maxlength="3" >
+                <span></span>
+
+                <i class="ion-alert-circled"></i>
+            </div>
+            <div class="input-field error input-field-icon">
+            <p>Salt intake of yesterday:&nbsp;</p><input
+                    type="text" name="salt" id="ysalt" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;1 spoon = 5g, please enter the weight"
+                    maxlength="3"><span></span>
+
+                <i class="ion-android-close"></i>
+
+            </div>
+            <br/>
+
+            <div class="buttonplace">
+            Gender：<input type="radio" name="sex" value="male"/>Male<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female"/>Female
+            <br/>
+            <br/>
+                <br/>
+            <button type="button" onclick="calculate1()">
+                Calculate
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+            <br/>
+            <br/>
+                <button type='button' onclick='getmes()'>Download  report</button>
+            </div>
+        </form>
+    </div>
+    <div class="result" id="result">
+        <h2 style="font-family: Arial Black">Your report</h2>
+        <p id="feedback" STYLE="font-size: 14px">
+
+        </p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.bootcss.com/jspdf/1.5.3/jspdf.debug.js"></script>
+<script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+
+<script>
+    function getmes() {
+        html2canvas(document.getElementById('result'),{
+            onrendered:function(canvas){
+                var contentWidth = canvas.width;
+                var contentHeight = canvas.height;
+                var pageHeight = contentWidth / 592.28 * 841.89;
+                var leftHeight = contentHeight;
+                var position = 0;
+                var imgWidth = 595.28;
+                var imgHeight = 592.28/contentWidth * contentHeight;
+                var pageData = canvas.toDataURL('image/jpeg', 1.0);
+                var pdf = new jsPDF('', 'pt', 'a4');
+                if (leftHeight < pageHeight) {
+                    pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+                } else {
+                    while(leftHeight > 0) {
+                        pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight);
+                        leftHeight -= pageHeight;
+                        position -= 841.89;
+                        if(leftHeight > 0) {
+                            pdf.addPage();
+                        }
+                    }
+                }
+
+                pdf.save('Your report.pdf');
+            }
+        });
+
+    }
+    function calculate1() {
+        var dbp = document.getElementById("dbp").value;
+        var sbp = document.getElementById("sbp").value;
+        var ysalt=document.getElementById("ysalt").value;
+        var radios = document.getElementsByName("sex");
+        var gycm =dbp-130;
+        var dycm =sbp-80;
+        var gycf =dbp-120;
+        var dycf =sbp-70;
+        for (i=0;i<radios.length;i++){
+            if(radios[i].checked===true){
+                var sex = radios[i].value;
+            }
+        }
+        if (sex==="male"){
+            if ((gycm>0||dycm>0)&&gycm>=dycm){
+                var res = Number(ysalt)-Number(gycm);
+                var sug = "You need reduce your salt intake";
+                var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                    "</br>" +
+                    "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                    "</br>" +
+                    "1.Regular Monitoring of blood pressure.\n" +"</br>"+
+                    "2.Minimise the salt level in your diet.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Limiting alcoholic beverages and smoking.\n" +"</br>"+
+                    "5.Try managing your stress level.\n"
+            } else if ((gycm>0||dycm>0)&&gycm<=dycm) {
+                var res = Number(ysalt)-Number(dycm)*2;
+                var sug = "You need reduce your salt intake";
+                var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                    "</br>" +
+                    "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                    "</br>" +
+                    "1.Regular Monitoring of blood pressure.\n" +"</br>"+
+                    "2.Minimise the salt level in your diet.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Limiting alcoholic beverages and smoking.\n" +"</br>"+
+                    "5.Try managing your stress level.\n"
+            }else {
+                var res = ysalt;
+                var sug = "You need not reduce your salt intake,Keep your good eating habits now!";
+                var other =other = "Your blood pressure is relatively Good. You are relatively doing good with your blood pressure and the Salt intake. \n" +
+                    "</br>" +
+                    "Your lifestyle is very well balanced, and you can continue doing the same with following few healthy factors.\n" +"</br>"+
+                    "1.Maintaining the salt level in your diet.\n" +"</br>"+
+                    "2.Limiting alcoholic beverages.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Eating more healthy food to lower the risk of high blood pressure.\n";
+
+            }
+           
+        }else{
+            if ((gycf>0||dycf>0)&&gycf>=dycf){
+                var res = Number(ysalt)-Number(gycf);
+                var sug = "You need reduce your salt intake";
+                var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                    "</br>" +
+                    "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                    "</br>" +
+                    "1.Regular Monitoring of blood pressure.\n" +"</br>"+
+                    "2.Minimise the salt level in your diet.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Limiting alcoholic beverages and smoking.\n" +"</br>"+
+                    "5.Try managing your stress level.\n"
+            } else if ((gycf>0||dycf>0)&&gycf<=dycf) {
+                var res = Number(ysalt)-Number(dycf)*2;
+                var sug = "You need reduce your salt intake";
+                var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                    "</br>" +
+                    "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                    "</br>" +
+                    "1.Regular Monitoring of blood pressure.\n" +"</br>"+
+                    "2.Minimise the salt level in your diet.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Limiting alcoholic beverages and smoking.\n" +"</br>"+
+                    "5.Try managing your stress level.\n"
+            }else {
+                var res = ysalt;
+                var sug = "You need not reduce your salt intake,Keep your good eating habits now!";
+                var other =other = "Your blood pressure is relatively Good. You are relatively doing good with your blood pressure and the Salt intake. \n" +
+                    "</br>" +
+                    "Your lifestyle is very well balanced, and you can continue doing the same with following few healthy factors.\n" +"</br>"+
+                    "1.Maintaining the salt level in your diet.\n" +"</br>"+
+                    "2.Limiting alcoholic beverages.\n" +"</br>"+
+                    "3.To exercise regularly to have a good flow of blood.\n" +"</br>"+
+                    "4.Eating more healthy food to lower the risk of high blood pressure.\n";
+            }
+        }
+        document.getElementById("feedback").innerHTML= "<p style='text-align: left'>Your Diastolic blood pressure of today：  "+dbp+" mm Hg"+"<br/>"+
+            "<p style='text-align: left'>Systolic blood pressure of today：  "+ sbp+" mm Hg"+"<br/>"+
+            "<p style='text-align: left'>The salt you ate yesterday：  "+ ysalt+" grams"+"<br/>"+
+            "<p style='text-align: left'>Your BP situation:   "+sug+"<br/>"+
+            "<p style='text-align: left'>Suggest salt intake for today:  " +res+" grams"+"<br/>"+
+            "<p style='text-align: left'> Other suggestion:"+other;
+
+
+
+    }
+</script>
+</body>
+</html>
