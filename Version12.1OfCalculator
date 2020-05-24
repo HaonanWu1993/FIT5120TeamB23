@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <title>nutrition table &#8211; H.Sodium</title>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="H.Sodium &raquo; Feed" href="https://nevertoolateteamb23.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="H.Sodium &raquo; 评论Feed" href="https://nevertoolateteamb23.com/comments/feed/" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/nevertoolateteamb23.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4"}};
+        /*! This file is auto-generated */
+        !function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style type="text/css">
+        .reference a {
+            text-decoration: none;
+            color: #f1faea;
+        }
+        .box1 {
+            float: left;
+            margin-left: 5%;
+            width: 25%;
+            height: 780px;
+            color: black;
+            margin-top: 200px;
+            border: 1px solid black;
+            font-family: "Arial ";
+            font-size: 18px;
+            text-align: left;
+            background: rgba(255, 252, 249, 0.75);
+        }
+        .box2 {
+            float: left;
+            margin-left: 5%;
+            width: 25%;
+            border: 1px solid black;
+            height: 780px;
+            color: black;
+            margin-top: 200px;
+            font-family: "Arial ";
+            font-size: 18px;
+            text-align: left;
+            background: rgba(255, 252, 249, 0.75);
+        }
+        .result{
+            float: left;
+            margin-top: 200px;
+            margin-left: 5%;
+            margin-right:5%;
+            border: 1px solid black;
+            padding: 20px;
+            width: 30%;
+            height: 780px;
+            color: black;
+            font-size: 13px;
+            font-family: "Arial ";
+            text-align: center;
+            background: rgba(255, 252, 249, 0.75);
+
+        }
+
+        .serchbar{
+            margin-top: 2%;
+            margin-bottom: 24%;
+            margin-left: 10%;
+            width: 80%;
+            text-align: left;
+        }
+        .back {
+            width: 100%;
+            height: 1350px;
+            position: relative;
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background: rgba(171, 1, 11, 0.05);
+        }
+        .totalbox{
+            height: 950px;
+            width: 100%;
+        }
+        .pic{
+            margin-left: 20%;
+            width: 60%;
+            height: 200px;
+
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588761026692&di=6478f8a3778575917eaddc3c04c07f73&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F17%2F08%2F12%2F52adc56921603c2137b48aef7d87b4e0.jpg%2521%2Ffwfh%2F804x804%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue");
+
+        }
+
+        .footermenu{
+            width: 100%;
+            height: 200px;
+            margin-top: 200px;
+            position: absolute;
+            font-size: 12px;
+            text-align: left;
+            color: rgb(250, 239, 255);
+            background: rgba(0, 0, 0, 0.81);
+        }
+
+        .boxinfoot1{
+            float: left;
+            margin-top: 20px;
+            position: relative;
+            margin-left:15%;
+            text-align: left;
+            font-size: 14px;
+            width: 16%;
+            color: rgb(250, 239, 255);
+        }
+
+        .boxinfoot2{
+            float: left;
+            margin-top: 20px;
+            position: relative;
+            margin-left:7%;
+            text-align: left;
+            font-size: 14px;
+            width: 22%;
+            color: rgb(250, 239, 255);
+        }
+
+        .boxinfoot3{
+            float: left;
+            margin-top: 20px;
+            position: relative;
+            margin-left:9%;
+            margin-right:13%;
+            text-align: left;
+            font-size: 14px;
+            width: 18%;
+            color: rgb(250, 239, 255);
+        }
+        .footermenu a{
+            text-decoration: none;
+            color: rgb(250, 239, 255);
+        }
+        .footermenu a:hover{
+            color: rgb(250, 239, 255);
+        }
+        @keyframes myfirstcartoon {
+            0% {
+                background-color: lightgreen;
+            }
+            25% {
+                background-color: blue;
+            }
+            50% {
+                background-color: orange;
+            }
+            75% {
+                background-color: red;
+            }
+            100% {
+                background-color: yellow;
+            }
+        }
+        .instruction {
+            float: left;
+            font-family: Arial;
+            margin-left: 5%;
+            text-align: left;
+        }
+
+        button {
+
+            padding: .3em .8em;
+
+            border: 1px solid rgba(0,0,0,.1);
+
+            background: rgba(0, 182, 250, 0.25) linear-gradient(hsla(0,0%,100%,.2),transparent);
+
+            border-radius: .2em;
+
+            box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+
+            color: black;
+
+            font-family: "Arial";
+
+            text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+
+            font-size: 100%;
+
+            line-height: 1.5;
+
+        }
+        .buttonplace{
+            margin-left: 8%;
+            margin-right:2%;
+        }
+        .buttonplace2{
+
+            position: relative;
+        }
+        #feedback a{
+            position: absolute;
+            margin-left: 5.5%;
+
+        }
+        .reference a:hover {
+            color: #255dff;
+            text-decoration:none;
+
+        }
+        .input-field,
+
+        .input-field *{
+
+            -webkit-box-sizing: border-box;
+
+            box-sizing:border-box;
+
+        }
+
+        .input-field {
+
+            position: relative;
+
+            width: 75%;
+
+            margin: 20px 50px;
+
+        }
+
+
+
+        .input-field input {
+
+            background-color: transparent;
+
+            border: none;
+
+            border-radius: 0;
+
+            height: 35px;
+
+            width: 100%;
+
+            padding: 0;
+
+            box-shadow: none;
+
+            outline: none;
+
+            -webkit-transition: all 0.3s;
+
+            transition: all 0.3s;
+
+        }
+
+
+
+        .input-field input+span {
+
+            position: absolute;
+
+            top: 100%;
+
+            left: 0;
+
+            display: inline-block;
+
+            max-width: 100%;
+
+            z-index: 0;
+
+            width: 100%;
+
+            height: 1px;
+
+            border-bottom: 1px solid #d9d9d9;
+
+        }
+
+
+
+        .input-field span:after {
+
+            content: "";
+
+            position: absolute;
+
+            bottom: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 2px;
+
+            background: #2196f3;
+
+            -webkit-transform: scale(0);
+
+            transform: scale(0);
+
+            -webkit-transition: all .2s ease-out;
+
+            transition: all .2s ease-out;
+
+        }
+
+        .input-field input:focus+span:after {
+
+            -webkit-transform: scale(1);
+
+            transform: scale(1);
+
+        }
+
+        .input-field.input-field-icon i{
+
+            position:absolute;
+
+            right:0;
+
+            top:50%;
+
+            padding:0 5px;
+
+            font-size:1.5em;
+
+            -webkit-transform: translate(0, -50%);
+
+            transform: translate(0, -50%);
+
+        }
+
+        .input-field.input-field-icon input{
+
+            padding-right:30px;
+
+        }
+
+
+
+        .input-field.success input+span{
+
+
+
+        }
+
+        .input-field.warning input+span{
+
+
+        }
+
+        .input-field.error input+span{
+
+
+        }
+
+        .input-field.success span:after {
+
+            background:#f44336;
+
+        }
+
+        .input-field.warning span:after{
+
+            background:#f44336;
+
+        }
+
+        .input-field.error span:after{
+
+            background:#f44336;
+
+        }
+
+        .input-field.input-field-icon.success i{
+
+            color: #4caf50;
+
+        }
+
+        .input-field.input-field-icon.warning i{
+
+            color: #ffc107;
+
+        }
+
+        .input-field.input-field-icon.error i{
+
+            color: #f44336;
+
+        }
+
+
+
+        .input-field.linear span:after {
+
+            background:-webkit-linear-gradient(left, #8C0044 20%, #00FFFF 50%, #7700FF 80%);
+
+        }
+        @media screen and ( max-width:1200px){
+            .back{
+                background: #f44336;
+                height: 100%;
+            }
+            .box1{
+                width: 90%;
+                height:750px ;
+                margin-right: 5%;
+            }
+            .box2{
+                width: 90%;
+                margin-right: 5%;
+            }
+            .result{
+                width: 90%;
+                margin-right: 5%;
+            }
+            .footermenu{
+                display: none;
+            }
+
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css'  href='https://nevertoolateteamb23.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='ce_responsive-css'  href='https://nevertoolateteamb23.com/wp-content/plugins/simple-embed-code/css/video-container.min.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startbiz-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CRaleway%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-min-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/bootstrap.min.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='meanmenu-min-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/meanmenu.min.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/fonts/font-awesome/css/font-awesome.min.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/animate.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-widget-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/widget.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-wp-test-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/wp-test.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-menu-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/menu.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-style-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startbiz/style.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-gutenberg-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/css/gutenberg.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='tablepress-default-css'  href='https://nevertoolateteamb23.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.11' type='text/css' media='all' />
+    <link rel='stylesheet' id='startkit-parent-style-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startkit/style.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startbiz-style-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startbiz/style.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startbiz-color-default-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startbiz/css/colors/default.css?ver=5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='startbiz-responsive-css'  href='https://nevertoolateteamb23.com/wp-content/themes/startbiz/css/responsive.css?ver=5.4' type='text/css' media='all' />
+    <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+    <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='https://nevertoolateteamb23.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nevertoolateteamb23.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://nevertoolateteamb23.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.4" />
+    <link rel="canonical" href="https://nevertoolateteamb23.com/nutrition-table/" />
+    <link rel='shortlink' href='https://nevertoolateteamb23.com/?p=66' />
+    <link rel="alternate" type="application/json+oembed" href="https://nevertoolateteamb23.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnevertoolateteamb23.com%2Fnutrition-table%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://nevertoolateteamb23.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnevertoolateteamb23.com%2Fnutrition-table%2F&#038;format=xml" />
+    <style type="text/css"> .wprm-comment-rating svg path, .comment-form-wprm-rating svg path { fill: #343434; } .comment-form-wprm-rating .wprm-rating-star.rated svg polygon { fill: #343434; } .wprm-comment-rating svg polygon, .comment-form-wprm-rating svg polygon { stroke: #343434; }</style>	<style type="text/css">
+    .site-title,
+    .site-description {
+        color: #000000;
+    }
+</style>
+    <link rel="icon" href="https://nevertoolateteamb23.com/wp-content/uploads/2020/05/logo-150x150.png" sizes="32x32" />
+    <link rel="icon" href="https://nevertoolateteamb23.com/wp-content/uploads/2020/05/logo-e1588495986832.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://nevertoolateteamb23.com/wp-content/uploads/2020/05/logo-e1588495986832.png" />
+    <meta name="msapplication-TileImage" content="https://nevertoolateteamb23.com/wp-content/uploads/2020/05/logo-e1588495986832.png" />
+    <style type="text/css" id="wp-custom-css">
+        .page-id-61 .navbar-area  {
+            display: none;
+        }
+
+        .page-id-66 .powered_by_link {
+            display: none;
+        }
+
+        .page-id-61 .breadcrumb_space  {
+            display: none;
+        }
+
+        .page-id-61 #footer-copyright
+        {
+            display: none;
+        }
+
+        .page-id-61 .sticky-wrapper
+        {
+            display: none;
+        }
+
+        .page-id-66 #table_1_length {
+            display: none;
+        }
+
+        .page-id-61 .section-padding-80
+        {
+            padding: 10px 0;
+        }
+
+        .page-id-61 #table_1_length {
+            display: none;
+        }
+
+        .page-id-61 .powered_by_link {
+            display: none;
+        }
+
+
+
+        .page-id-61 .dataTables_filter {
+            float: none!important;
+            margin-bottom: none;
+            text-align: left!important;
+            box-shadow: none !important;
+            resize: none;
+        }
+
+        .page-id-61 input {
+            background: transparent;
+            margin: 0px!important;
+            padding: 0px!important;
+            border: none;
+            border-bottom: 1px solid #000000;
+        }
+
+
+        .col-md-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        a{
+            color:black;
+        }
+
+
+        .page-id-61 .footer-sidebar {
+            display: none;
+        }
+
+
+
+        h1.fadeInDown.delay-1.animated {
+            font-weight: lighter;
+        }
+
+
+        #footer-widgets {
+            padding: 30px 0px!important;
+        }
+
+        h5.widget-title {
+            display: none;
+        }
+
+
+        .page-id-439 .carousel {
+            background: #512DA8; }
+        .carousel .carousel-item {
+            height: 300px; }
+        .carousel .carousel-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-height: 300px;
+        }
+
+        .page-id-439 #carouselButton {
+            right: 0px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 1;
+        }
+
+
+        a.scrollup {
+            display: none!important;
+        }
+
+
+
+    </style>
+</head>
+
+
+<body class="page-template-default page page-id-66 wp-custom-logo startbiz-btn">
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Homepage</a>
+    <!-- Start: Header
+ ============================= -->
+    <header id="header" role="banner">
+        <!-- Navigation Starts -->
+        <div class="navbar-area normal-h sticky-nav active-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6 my-auto">
+                        <div class="logo main">
+                            <a href="https://nevertoolateteamb23.com/" class="custom-logo-link" rel="home"><img width="150" height="150" src="https://nevertoolateteamb23.com/wp-content/uploads/2020/05/logo-e1588495986832.png" class="custom-logo" alt="H.Sodium" /></a>				</div>
+                    </div>
+                    <!-- Nav -->
+                    <div class="col-lg-6 d-none d-lg-block my-auto">
+                        <nav class="text-right main-menu">
+                            <ul id="menu-main-menu" class=""><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-54 nav-item"><a title="Home Page" href="https://nevertoolateteamb23.com/" class="nav-link">Home Page</a></li>
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item active menu-item-55 nav-item"><a title="Calculator" href="https://nevertoolateteamb23.com/calculator/" class="nav-link">Calculator</a></li>
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225 nav-item"><a title="Nutrition table" href="https://nevertoolateteamb23.com/nutrition-table/" class="nav-link">Nutrition table</a></li>
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-535 nav-item"><a title="Health" href="https://nevertoolateteamb23.com/healthylifestyle/" class="nav-link">Health <i class="fa fa-angle-down"></i></a>
+                                    <ul class="s-dropdown-menu" role="menu">
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536 nav-item"><a title="Healthy lifestyle" href="https://nevertoolateteamb23.com/healthylifestyle/" class="dropdown-item">Healthy lifestyle</a></li>
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537 nav-item"><a title="Healthy recipes" href="https://nevertoolateteamb23.com/recipe/" class="dropdown-item">Healthy recipes</a></li>
+                                    </ul>
+                                </li>
+                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-356 nav-item"><a title="Help" href="https://nevertoolateteamb23.com/helpdocument/" class="nav-link">Help <i class="fa fa-angle-down"></i></a>
+                                    <ul class="s-dropdown-menu" role="menu">
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564 nav-item"><a title="Background information" href="https://nevertoolateteamb23.com/background/" class="dropdown-item">Background information</a></li>
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357 nav-item"><a title="Help Document" href="https://nevertoolateteamb23.com/helpdocument/" class="dropdown-item">Help Document</a></li>
+                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327 nav-item"><a title="FAQS" href="https://nevertoolateteamb23.com/faqs/" class="dropdown-item">FAQS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>				</nav>
+                    </div>
+                    <!-- Nav End -->
+                    <div class="col-lg-3 col-6 my-auto">
+                        <div class="header-right-bar">
+                            <ul>
+                                <li class="search-button search-cart-se">
+                                    <a id="search-popup" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="book-now-btn">
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Start Mobile Menu -->
+                    <div class="mobile-menu-area d-lg-none">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mobile-menu">
+                                        <nav class="mobile-menu-active">
+                                            <ul id="menu-main-menu-1" class=""><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-54 nav-item"><a title="Home Page" href="https://nevertoolateteamb23.com/" class="nav-link">Home Page</a></li>
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item active menu-item-55 nav-item"><a title="Calculator" href="https://nevertoolateteamb23.com/calculator/" class="nav-link">Calculator</a></li>
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225 nav-item"><a title="Nutrition table" href="https://nevertoolateteamb23.com/nutrition-table/" class="nav-link">Nutrition table</a></li>
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-535 nav-item"><a title="Health" href="https://nevertoolateteamb23.com/healthylifestyle/" class="nav-link">Health <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="s-dropdown-menu" role="menu">
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536 nav-item"><a title="Healthy lifestyle" href="https://nevertoolateteamb23.com/healthylifestyle/" class="dropdown-item">Healthy lifestyle</a></li>
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-537 nav-item"><a title="Healthy recipes" href="https://nevertoolateteamb23.com/recipe/" class="dropdown-item">Healthy recipes</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-356 nav-item"><a title="Help" href="https://nevertoolateteamb23.com/helpdocument/" class="nav-link">Help <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="s-dropdown-menu" role="menu">
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564 nav-item"><a title="Background information" href="https://nevertoolateteamb23.com/background/" class="dropdown-item">Background information</a></li>
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357 nav-item"><a title="Help Document" href="https://nevertoolateteamb23.com/helpdocument/" class="dropdown-item">Help Document</a></li>
+                                                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327 nav-item"><a title="FAQS" href="https://nevertoolateteamb23.com/faqs/" class="dropdown-item">FAQS</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>                                </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Mobile Menu -->
+                </div>
+            </div>
+        </div>
+        <!-- Navigation End -->
+        <!-- Start: Search
+           ============================= -->
+        <div id="search">
+            <a href="javascript:void(0);" id="close-btn"><i class="fa fa-times"></i></a>
+            <div>
+                <form method="get" id="searchform" class="search-form" action="https://nevertoolateteamb23.com/">
+                    <input id="searchbox" class="search-field" type="search" type="text" value="" name="s" id="s" placeholder="type here" />
+                    <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+                <!-- End: Search
+                ============================= -->
+
+        <div class="back">
+            <div class="totalbox">
+                <div class="box1">
+                    </br>
+                    <p style="font-family: Arial;text-align: center;font-size: 20px">Food Salt Search</p><br/>
+                    <div class="serchbar">
+                        <p class="instruction"> You can search for food in the search box below to help you calculate the total salt intake yesterday. Please note that the food unit queried below is 100 g or 1 cup per serving.</p>
+                        <br/><p class="instruction"></p>
+                    </div>
+                    <div class="buttonplace">
+                        <iframe src="https://nevertoolateteamb23.com/61-2" height="420" width="90%"></iframe>
+                    </div>
+                </div>
+                <div class="box2">
+                    <form name="test" method="get" action="">
+
+                        <div class="input-field success input-field-icon">
+                            <br/>
+                            <p>Diastolic blood pressure of today：</p>
+                            <input type="text" name="dbloodpressure" id="dbp" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" onafterpaste="this.value=this.value.replace(/[^\d]/g,'') "
+                                   placeholder="Number between 50-250"
+                                   maxlength="3" onblur="checkInt(this.value,50,250)"><span></span>
+
+                            <i class="ion-android-done"></i>
+                        </div>
+                        <div class="input-field warning input-field-icon">
+                            <p>Systolic blood pressure of today：</p>
+                            <input type="text" name="sbloodpressure" id="sbp" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" onafterpaste="this.value=this.value.replace(/[^\d]/g,'') "
+                                   placeholder="Number between 30-180"
+                                   maxlength="3" onblur="checkInt1(this.value,30,180)" >
+                            <span></span>
+
+                            <i class="ion-alert-circled"></i>
+                        </div>
+                        <div class="input-field error input-field-icon">
+                            <p>Salt intake of yesterday:&nbsp;(Milligrams)</p><input
+                                type="text" name="salt" id="ysalt" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" onafterpaste="this.value=this.value.replace(/[^\d]/g,'') " placeholder="1 teaspoon=5900 milligrams"
+                                maxlength="6" onblur="checkInt2(this.value,30000)"><span></span>
+
+                            <i class="ion-android-close"></i>
+
+                        </div>
+                        <br/>
+
+                        <div class="buttonplace">
+                            <br/>
+                            <br/>
+                            <button type="button" onclick="calculate1()">
+                                Calculate
+                            </button>
+                            <button type="reset">
+                                Reset
+                            </button>
+                            <br/>
+                            <br/>
+                            <button type='button' onclick='getmes()'>Download  report</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="result" id="result">
+                    <div id="feedback" STYLE="font-size: 18px;text-align: left">
+                        <br/>
+                        <p style='font-family: Arial;text-align: center;font-size: 20px'>H.Sodium Calculator</p>
+                        <br/>
+                        <p style="text-align: left"> The H.Sodium Calculator can help you know about the level of salt the elderly in your family should intake depending upon their yesterday’s salt intake and blood pressure. <br/> <br/>
+                            Higher intake of salt leads to hypertension and cardiovascular diseases.<br/> <br/>
+                            This calculator is basically designed for people whose family contains elderly family members. And these elderly may have high blood pressure issues.  <br/> <br/>
+                            It gives you an idea about the amount of salt the elderly should have in their diet to control the risk of hypertension.
+
+                            <br/>
+                            <br/>
+                        </p>
+                        <div class="pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footermenu">
+                <div class="boxinfoot1">
+                    <p style="font-size: 24px;color: white">Function pages</p><br/>
+                    <a href="https://nevertoolateteamb23.com/" target="_blank">Home page</a><br/><a href="https://nevertoolateteamb23.com/calculator/" target="_blank">Calculator</a><br/>
+                    <a href="https://nevertoolateteamb23.com/nutrition-table/" target="_blank">Nutrition table</a><br/>
+                    <a href="https://nevertoolateteamb23.com/" target="_blank">Low salt recipe</a>
+                </div>
+                <div class="boxinfoot2">
+                    <p style="font-size: 24px;color: white">References List</p><br/>
+                    <a href="https://www.webmd.com/heart/understanding-low-blood-pressure-treatment#1" target="_blank">
+                        Understanding Low Blood Pressure</a><br/>
+
+                    <a href=" https://theoregondietitian.com/" target="_blank">Richer low-salt recipes</a><br/>
+
+                    <a href=" https://www.thecalculatorsite.com/cooking/teaspoons-grams.php" target="_blank">Teaspoons to Grams
+                        Converter</a><br/>
+                    <a href=" https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/high-blood-pressure/art-20046974"
+                       target="_blank">10 ways to control high blood pressure</a><br/>
+                </div>
+                <div class="boxinfoot3">
+                    <p style="font-size: 24px;color: white">Contact us</p><br/>
+                    <p style="color: white">If you have any doubts or suggestions for improvement, you can contact us by Email: williamhaonan1993@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+
+        <section id="footer-copyright">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="flex: 0 0 100%;max-width: 100%">
+                        <div class="text-center">
+                            <p>Disclaimer:
+                                We only provide you with appropriate advice and cannot be used as a basis for diagnosis. Please follow the doctor&#039;s advice</p>
+                            <a href="#" class="scrollup"><i class="fa fa-arrow-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/bootstrap.min.js?ver=4.3.1'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/jquery.sticky.js?ver=5.4'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/jquery.meanmenu.min.js?ver=5.4'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/wow.min.js?ver=5.4'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/custom.js?ver=5.4'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-content/themes/startkit/js/skip-link-focus-fix.js?ver=20151215'></script>
+        <script type='text/javascript' src='https://nevertoolateteamb23.com/wp-includes/js/wp-embed.min.js?ver=5.4'></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdn.bootcss.com/jspdf/1.5.3/jspdf.debug.js"></script>
+        <script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+
+        <script>
+            function getmes() { //PDF
+                html2canvas(document.getElementById('result'),{
+                    onrendered:function(canvas){
+                        var contentWidth = canvas.width;
+                        var contentHeight = canvas.height;
+                        var pageHeight = contentWidth / 592.28 * 841.89;
+                        var leftHeight = contentHeight;
+                        var position = 0;
+                        var imgWidth = 595.28;
+                        var imgHeight = 592.28/contentWidth * contentHeight;
+                        var pageData = canvas.toDataURL('image/jpeg', 1.0);
+                        var pdf = new jsPDF('', 'pt', 'a4');
+                        if (leftHeight < pageHeight) {
+                            pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+                        } else {
+                            while(leftHeight > 0) {
+                                pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight);
+                                leftHeight -= pageHeight;
+                                position -= 841.89;
+                                if(leftHeight > 0) {
+                                    pdf.addPage();
+                                }
+                            }
+                        }
+
+                        pdf.save('Your report.pdf');
+                    }
+                });
+
+            }
+            function calculate1() {
+                var dbp = document.getElementById("dbp").value;
+                var sbp = document.getElementById("sbp").value;
+                var ysalt = document.getElementById("ysalt").value;
+                var gycm = dbp - 140;
+                var dycm = sbp - 80;
+                if (dbp == "" || sbp == "" || ysalt == "") {
+                    alert("Please input the complete data to calculate the salt level")
+                } else if (dbp > 250 || dbp < 50 || sbp > 180 || sbp < 30 || ysalt > 30000) {
+                    alert("There is something wrong with the value you entered, please check and try again.")
+                } else {
+                    if ((gycm > 0 || dycm > 0) && gycm >= dycm && ysalt <= 5000) {
+                        if (Number(ysalt) - Number(gycm) * 100 > 100) {
+
+                            var res = Math.max(Number(ysalt) - Number(gycm) * 100, 1);
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                                "</br>" +
+                                "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        } else {
+                            var res = ysalt;
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "You have high blood pressure problems, but your salt intake is reasonable, it does not increase your risk of high blood pressure, you should control blood pressure from other aspects or seek medical help.\n" +
+                                "</br>" +
+                                "Here are also some useful suggestions for you:" +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "3.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "4.Try managing your stress level.\n" + "</br>" + "</br>";
+                        }
+                    } else if ((gycm > 0 || dycm > 0) && gycm >= dycm && ysalt > 5000) {
+                        if (Number(ysalt) - Number(gycm) * 100 > 100) {
+
+                            var res = Math.max(Number(ysalt) - Number(gycm) * 100, 1);
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                                "</br>" +
+                                "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        } else {
+                            var res = "less than 5000";
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your blood pressure is too high and you need to seek medical help immediately. High blood pressure will directly threaten your life, and you should also control your salt intake, because according to the recommendations of the World Health Organization, the daily salt intake of adults should be less than 5000mg.\n" +
+                                "</br>" +
+                                "Here are also some useful suggestions for you:" +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        }
+                    } else if ((gycm > 0 || dycm > 0) && dycm >= gycm && ysalt <= 5000) {
+                        if (Number(ysalt) - Number(dycm) * 100 > 100) {
+
+                            var res = Math.max(Number(ysalt) - Number(gycm) * 100, 1);
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                                "</br>" +
+                                "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        } else {
+                            var res = ysalt;
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "You have high blood pressure problems, but your salt intake is reasonable, it does not increase your risk of high blood pressure, you should control blood pressure from other aspects or seek medical help .\n" +
+                                "</br>" +
+                                "Here are also some useful suggestions for you:" +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "3.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "4.Try managing your stress level.\n" + "</br>" + "</br>";
+                        }
+                    } else if ((gycm > 0 || dycm > 0) && dycm >= gycm && ysalt > 5000) {
+                        if (Number(ysalt) - Number(dycm) * 100 > 100) {
+
+                            var res = Math.max(Number(ysalt) - Number(dycm) * 100, 1);
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your Blood pressure is High. You are consuming high amount of salt in your diet. This is the case of Hypertension and is danger because it makes heart pump severer to pump blood out to the body, which can cause reinforcing of the arteries, or atherosclerosis, to stroke, kidney disease, and to heart failure.\n" +
+                                "</br>" +
+                                "You should follow healthy lifestyle to balance your blood pressure because it may risk your life." +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        } else {
+                            var res = "less than 5000";
+                            var sug = "Unfortunately, you have high blood pressure.";
+                            var other = "Your blood pressure is too high and you need to seek medical help immediately. High blood pressure will directly threaten your life, and you should also control your salt intake, because according to the recommendations of the World Health Organization, the daily salt intake of adults should be less than 5000mg.\n" +
+                                "</br>" +
+                                "Here are also some useful suggestions for you:" +
+                                "</br>" +
+                                "1.Regular Monitoring of blood pressure.\n" + "</br>" +
+                                "2.Minimise the salt level in your diet.\n" + "</br>" +
+                                "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                                "4.Limiting alcoholic beverages and smoking.\n" + "</br>" +
+                                "5.Try managing your stress level.\n" + "</br>" + "</br>";
+                        }
+
+
+                    }else{
+                        var res = ysalt;
+                        var sug = "Congratulations, you are in good health!";
+                        var other = other = "Your blood pressure is relatively Good.You can maintain your eating habits." +
+                            "</br>" +
+                            "Your lifestyle is very well balanced, and you can continue doing the same with following few healthy factors.\n" + "</br>" +
+                            "1.Maintaining the salt level in your diet.\n" + "</br>" +
+                            "2.Limiting alcoholic beverages.\n" + "</br>" +
+                            "3.To exercise regularly to have a good flow of blood.\n" + "</br>" +
+                            "4.Eating more healthy food to lower the risk of high blood pressure.\n" + "</br>" + "</br>"
+                    }
+                    document.getElementById("feedback").innerHTML = "<p style=\'font-family: Arial;text-align: center;font-size: 20px\'>Your report</p>" + "<br/>" +
+                        "<p style='text-align: left;font-size: 17px'>Your BP situation:   " + sug + "<br/>" +
+                        "<p style='text-align: left'>Your Diastolic blood pressure of today：  " + dbp + " mm Hg" + "<br/>" +
+                        "<p style='text-align: left'>Systolic blood pressure of today：  " + sbp + " mm Hg" + "<br/>" +
+                        "<p style='text-align: left'>The salt you ate yesterday：  " + ysalt + " mg" + "<br/>" +
+                        "<p style='text-align: left'>Suggest salt intake for today:  " + res + " mg" + "<br/>" +
+                        "<p style='text-align: left'> Other suggestion:" + other;
+
+                }
+            }
+
+
+            function checkInt(n, min, max) {
+                if (n < min && n > 0) {
+                    alert("The value you entered is too small.\n" +
+                        "Please input the correct value between 50-250.")
+                    var dbp = document.getElementById("dbp");
+                    dbp.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else if (n > max) {
+                    alert("The value you entered is too large. \n" +
+                        "Please input the correct value between 50-250.\n")
+                    var dbp = document.getElementById("dbp");
+                    dbp.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else {
+                    var dbp = document.getElementById("dbp");
+                    dbp.style.backgroundColor = "rgba(255,252,249,0)";
+                }
+            }
+
+            function checkInt1(n, min, max) {
+                if (n < min && n > 0) {
+                    alert("The value you entered is too small. \n" +
+                        "Please input the correct value between 30-180.\n")
+                    var sbp = document.getElementById("sbp");
+                    sbp.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else if (n > max) {
+                    alert("The value you entered is too large. \n" +
+                        "Please input the correct value between 30-180.\n")
+                    var sbp = document.getElementById("sbp");
+                    sbp.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else {
+                    var sbp = document.getElementById("sbp");
+                    sbp.style.backgroundColor = "rgba(255, 252, 249, 0.0)";
+                }
+            }
+
+            function checkInt2(n, max) {
+                if (n < 0) {
+                    alert("You can not eat negative salt!")
+                    var ysalt = document.getElementById("ysalt");
+                    ysalt.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else if (n > max) {
+                    alert("The value of salt intake you entered is too large. \n")
+                    var ysalt = document.getElementById("ysalt");
+                    ysalt.style.backgroundColor = "rgba(223,36,29,0.67)";
+                } else {
+                    var ysalt = document.getElementById("ysalt");
+                    ysalt.style.backgroundColor = "rgba(255, 252, 249, 0.0)";
+                }
+
+            }
+        </script>
+</body>
+</html>
